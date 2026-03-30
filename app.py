@@ -72,7 +72,7 @@ if model:
             st.image(annotated_rgb, use_container_width=True)
 
         with col2:
-            st.subheader("Objetos detectados")
+            st.subheader("Los objetos detectados fueron...")
             if boxes is not None and len(boxes) > 0:
                 label_names    = model.names
                 category_count = {}
