@@ -22,8 +22,7 @@ def load_model():
         return None
 
 st.title("🔍 Detección de Objetos en Imágenes")
-st.markdown("Esta aplicación detecta objetos en imagenes con tu camara. Se supone que se entreno adicionalmente para detectar un termo, unos audifonos 
-            y una flauta, pero no es demasiado bueno haciendolo, creo. ¿o me estare confundiendo? espero que no")
+st.markdown("Esta aplicación detecta objetos en imagenes con tu camara. Se supone que se entreno adicionalmente para detectar un termo, unos audifonos y una flauta, pero no es demasiado bueno haciendolo, creo. ¿o me estare confundiendo? espero que no")
 
 with st.spinner("Cargando modelo YOLOv5..."):
     model = load_model()
