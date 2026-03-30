@@ -104,4 +104,4 @@ else:
     st.stop()
 
 st.markdown("---")
-st.caption("**Acerca de la aplicación**: Detección de objetos con YOLOv5 + Streamlit + PyTorch.")
+st.caption("*sonidos de robot* beep boop")
